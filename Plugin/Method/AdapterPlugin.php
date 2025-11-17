@@ -34,6 +34,6 @@ class AdapterPlugin
             $label = __('Wire transfer');
         }
 
-        return $label;
+        return (string)$label;
     }
 }
